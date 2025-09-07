@@ -1,0 +1,25 @@
+.footer {
+  background: #f7f7fb;
+  padding: 18px 0;
+  text-align: center;
+  margin-top: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #6a38ab;
+}
+.footer nav button, .footer nav a {
+  margin: 0 6px;
+  color: #6a38ab;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.footer nav button:hover, .footer nav a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}

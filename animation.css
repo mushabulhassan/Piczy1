@@ -1,0 +1,26 @@
+/* Styles for opening animation quote */
+.animation-opening {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  animation: fadeIn 3s;
+}
+.quote {
+  font-size: 2.2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation: textAppear 2s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes textAppear {
+  from { transform: translateY(60px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

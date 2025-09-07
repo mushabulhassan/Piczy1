@@ -1,0 +1,99 @@
+.product-list {
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.product-list h2 {
+  color: #6a38ab;
+  margin-bottom: 1.5rem;
+}
+.filters {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #e0c3fc;
+  padding: 1rem;
+  width: 280px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.product-card h4 {
+  font-size: 1.15rem;
+  color: #6a38ab;
+  margin-bottom: 5px;
+}
+.limited {
+  background: #8ec5fc;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.95rem;
+  margin: 6px 0;
+}
+.actions {
+  margin: 10px 0;
+  display: flex;
+  gap: 8px;
+}
+.actions button {
+  background: #e0c3fc;
+  color: #6a38ab;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.actions button:hover {
+  background: #6a38ab;
+  color: #fff;
+}
+.comments {
+  width: 100%;
+  margin-top: 12px;
+}
+.comment {
+  background: #f7f7fb;
+  border-radius: 6px;
+  padding: 6px;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+.comments form {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+.comments input {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid #8ec5fc;
+  border-radius: 6px;
+}
+.comments button {
+  background: #8ec5fc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.comments button:hover {
+  background: #6a38ab;
+}

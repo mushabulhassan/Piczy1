@@ -1,0 +1,9 @@
+.language-selector {
+  margin-left: 16px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #8ec5fc;
+  background: #f7f7fb;
+  color: #333;
+  font-size: 1rem;
+}

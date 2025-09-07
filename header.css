@@ -1,0 +1,36 @@
+/* Header, logo, nav styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  border-radius: 12px;
+  border: 2px solid #8ec5fc;
+}
+.site-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6a38ab;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav a:hover {
+  color: #8ec5fc;
+}

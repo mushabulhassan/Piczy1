@@ -1,0 +1,24 @@
+@media (max-width: 900px) {
+  .products, .product-list .ai-recommend .products, .magazine-items, .historic-items, .dashboard-items, .discover-items {
+    flex-direction: column;
+    gap: 20px !important;
+    align-items: center;
+  }
+  .product-card, .magazine-card, .historic-card, .dashboard-card, .discover-card {
+    width: 95vw !important;
+    max-width: 340px !important;
+  }
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .header, .footer {
+    flex-direction: column;
+    padding: 14px 8px;
+  }
+  .logo {
+    width: 44px !important;
+    height: 44px !important;
+  }
+}
